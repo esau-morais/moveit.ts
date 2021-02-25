@@ -1,0 +1,26 @@
+[
+  {
+    "type": "Humanas",
+    "description": "Estique um de deus braços com a palma e morra",
+    "amount": 10,
+    "icon": "⏳"
+  },
+  {
+    "type": "Linguagens",
+    "description": "Estique um de deus braços com a palma e morra",
+    "amount": 10,
+    "icon": "📚"
+  },
+  {
+    "type": "Natureza",
+    "description": "Estique um de deus braços com a palma e morra",
+    "amount": 20,
+    "icon": "⚛"
+  },
+  {
+    "type": "Matemática",
+    "description": "Estique um de deus braços com a palma e morra",
+    "amount": 20,
+    "icon": "📏"
+  }
+]

@@ -1,0 +1,33 @@
+/* ➡ User profile wrapper ⬅ */
+div.profileContainer {
+  display: flex;
+  align-items: center;
+}
+
+/* ➡ User profile image ⬅ */
+div.profileContainer > img {
+  width: 5.5rem;
+  height: 5.5rem;
+
+  border-radius: 50%;
+}
+
+/* ➡ User profile name and level ⬅ */
+div.profileContainer div {
+  margin-left: 1.5rem;
+}
+div.profileContainer div strong,
+div.profileContainer div p {
+  font-weight: 600;
+}
+div.profileContainer div strong {
+  color: var(--title);
+}
+div.profileContainer div p {
+  margin-top: 0.5rem;
+
+  font-size: 1rem;
+}
+div.profileContainer div p img {
+  margin-right: 0.5rem;
+}

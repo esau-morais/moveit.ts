@@ -1,0 +1,39 @@
+/* ➡ Progress bar wrapper ⬅ */
+header.experienceBar {
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+header.experienceBar > span {
+  font-size: 1rem;
+}
+
+header.experienceBar > div,
+header.experienceBar > div div {
+  height: 4px;
+  border-radius: 4px;
+}
+
+/* ➡ Progress bar full line full-width ⬅ */
+header.experienceBar > div {
+  margin: 0 1.5rem;
+  flex: 1;
+  
+  position: relative;
+  
+  background-color: var(--gray-line);
+}
+
+/* ➡ Progress bar current XP line width ⬅ */
+header.experienceBar > div div {
+  background-color: var(--green);
+}
+
+/* ➡ Progress bar current XP value ⬅ */
+span.experienceBarCurrent {
+  position: absolute;
+  top: 12px;
+  /* Move the content to the center */
+  transform: translateX(-50%);
+}

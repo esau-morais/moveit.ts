@@ -1,0 +1,19 @@
+/* ➡ Completed challenges wrapper ⬅ */
+div.completedChallengesContainer {
+  margin: 3.5rem 0;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #d7d8da;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  font-weight: 500;
+}
+div.completedChallengesContainer span:first-child {
+  font-size: 1.25rem;
+}
+/* ➡ Completed challenges count ⬅ */
+div.completedChallengesContainer span:last-child {
+  font-size: 1.5rem;
+}
